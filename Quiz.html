@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <title>Trivia - TV Series / Famous Actor</title>
+    <link rel="stylesheet" href="Quiz.css">
+
+</head>
+
+<body>
+    <header> 
+        <h1 class="header"> Andys Trivia </h1>
+    </header>
+
+    <nav>
+        <a class="l_1" href="./index.html"> Home</a>
+        <a class="l_1" href="#"> Start Quiz</a>
+        <a class="l_1" href="./Leaderboard.html"> Leaderboard</a>
+        <a class="l_1"href="./About.html"> About</a>
+    </nav>
+
+    <main>
+       <div class="quiz_wrapper quiz_container">
+            <article class="number_and_Score">
+                <h3 class="score-card">Score : <span id="scoreCard"></span></h3>
+                <h3>Questions : <span id="question_number"></span>/<span id="total_question"> </span></h3>
+            </article>
+            
+            <article class="quiz_question_container">  
+                <h1 id="questionBox" ></h1>
+            </article>
+          
+          <div class="options">
+              <ul id="ul">
+                  <li class="choice_container" id="op1" onclick="button(this)"></li>
+                  <li class="choice_container" id="op2" onclick="button(this)"></li>
+                  <li class="choice_container" id="op3" onclick="button(this)"></li>
+                  <li class="choice_container" id="op4" onclick="button(this)"></li>
+              </ul>
+
+          </div>
+          <article class="next_button next">
+              <button onclick="handleNextQuestion()" class="disable_none" id="btnNext" disabled>Next Question</button>
+          </article>
+
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Quiz.js"></script>
+
+</body>

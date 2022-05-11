@@ -1,0 +1,27 @@
+*{
+    background-color:springgreen;
+}
+.nav{
+    width: 400px;
+    float: left;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 62px;
+    margin-top: 27px;
+}
+
+.l_1{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.l_1:hover{
+    color:tomato;
+}
+.about_picture{
+    width:"500";
+    Height:"600";
+}
+

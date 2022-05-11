@@ -1,0 +1,35 @@
+*{
+    background-color:springgreen;
+}
+.main{
+    width: 100%;
+    background: rgba(54, 110, 212, 0.5)
+}
+.header{
+    background-color: #008cff;
+}
+
+.nav{
+    width: 400px;
+    float: left;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 62px;
+    margin-top: 27px;
+}
+
+.l_1{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.l_1:hover{
+    color:tomato;
+}
+
+.home_picture{
+    width: "500";
+    height : "600";
+}
